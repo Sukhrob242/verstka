@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.all {
+    margin-left: 5%;
+    width: 90%;
+}
+.just_all{
+    width: 80%;
+    margin-left: 10%;
+}
+/* Starting Navabr */
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    color: #254152;
+}
+.main .navbar{
+    width: 100%;
+    height: 152px;
+}
+.main .navbar .nav {
+    display: flex;
+    height: 103px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main .navbar .nav .logo {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    justify-content: center;
+}
+.main .navbar .nav .btn {
+    width: 33%;
+    justify-content: center;
+    display: flex;
+}
+.main .navbar .nav .btn button {
+    border-radius: 50px;
+    background: rgba(45, 166, 221, 0.2);
+    font-size: 14px;
+    padding: 10px 20px;
+    border: none;
+}
+.main .navbar .nav .contact {
+    width: 33%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 22px;
+}
+.main .navbar .navs {
+    height: 48px;
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+}
+.main .navbar .navs .navsb1  {
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.main .navbar .navs button {
+    border: none;
+    border-radius: 50px;
+    background-color: #BCD249;
+    padding: 4px 10px;
+    font-size: 14px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+/* Ending navbar. don't touch! */
+
+/* Starting Section with img */
+.main .section {
+    width: 100%;
+}
+.main .section .box1 {
+    height: 469px;
+    margin-top: 3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    background-image: url(/verstka/img/Asosiy/Rectangle\ 5.png);
+    align-items: center;
+    padding: 8% 8%;
+}
+.main .section .box1 :nth-child(1) {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+}
+.main .section .box1 :nth-child(2) {
+    font-weight: 400;
+    font-size: 18px;
+}
+.main .section .box2 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    margin-top: 1%;
+}
+.main .section .box2 .stoppoint1 {
+    border: #697f8d 1px solid;
+    border-radius: 360px;
+    width: 10px;
+    height: 10px;
+    background-color: #254152;
+}
+.main .section .box2 .stoppoint2 {
+    border: #2f20dc 1px solid;
+    border-radius: 360px;
+    width: 10px;
+    height: 10px;
+    background-color: #2f20dc;
+}
+.main .section .box3 div p {
+    font-weight: 400;
+    font-size: 18px;
+}
+.main .section .box3 .box3_child1 {
+    margin-top: 8%;
+}
+.main .section .box3 .box3_child2 {
+    font-weight: 600;
+    font-size: 38px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+/* ending Section with img */
+
+/* Starting blue text fon  */
+.main .sec_two {
+    background: #E7F2F9;
+    width: 100%;
+}
+.main .sec_two .sec_box1 {
+    padding-top: 6%;
+}
+.main .sec_two .sec_box1 h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 38px;
+}
+.main .sec_two .sec_box1 p {
+    margin-top: 2%;
+    font-weight: 400;
+    font-size: 18px;
+}
+.main .sec_two .sec_box2 {
+    display: flex; 
+    padding-bottom: 6%;
+    padding-top: 6%;
+    justify-content: space-around;
+}
+.main .sec_two .sec_box2 .sec_mini_ {
+    width: 25%;
+    align-items: center;
+    text-align: center;
+}
+.main .sec_two .sec_box2 .sec_mini_ p {
+    margin-top: 10%;
+}
+.main .sec_two .sec_box2 .sec_mini_ :nth-child(2){
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    font-size: 18px;
+}
+/* ending blue text fon  */
+
+/* STARTING Section third */
+.main .section_three {
+    width: 100%;
+}
+.main .section_three .three_b1{
+    padding-top: 5%;
+    padding-bottom: 3%;
+}
+.main .section_three .three_b1 h1 {
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 2%;
+}
+.main .section_three .three_b1 p {
+    font-weight: 400;
+    font-size: 18px;
+}
+.main .section_three .three_b2  {
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+.main .section_three .three_b2 .mini_three_box1{ 
+    width: 60%;
+}
+.main .section_three .three_b2 .mini_three_box1 iframe {
+    border-radius: 20px;
+    width: 560px;
+    height: 326px;
+}
+.main .section_three .three_b2 .mini_three_box2 {
+    width: 40%;
+    text-align: start;
+}
+.main .section_three .three_b2 .mini_three_box2 :nth-child(1) {
+    font-weight: 700;
+    font-size: 16px;
+}
+.main .section_three .three_b2 .mini_three_box2 :nth-child(2){
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 15%;
+}
+.main .section_three .three_b2 .mini_three_box2 a {
+    margin-top: 10%;
+    color: #1403c9;
+}
+/* ENDING Section third */
+
+/* Starting COST work */
